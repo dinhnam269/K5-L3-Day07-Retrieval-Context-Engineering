@@ -1,0 +1,19 @@
+{
+  "config_name": "dense-day6",
+  "strategy": "dense",
+  "split": "test",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 800,
+  "hit1": 4,
+  "hit1_rate": 0.8,
+  "hit3": 5,
+  "hit3_rate": 1.0,
+  "hit_k": 5,
+  "context_hit": 4,
+  "context_hit_rate": 0.8,
+  "avg_context_chars": 621.4,
+  "median_ms": 43.5714,
+  "index_seconds": 0.1112,
+  "service_cost_usd": 0.0
+}

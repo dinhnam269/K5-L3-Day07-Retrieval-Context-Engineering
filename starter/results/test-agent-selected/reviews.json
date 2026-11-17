@@ -1,0 +1,59 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context grade 2 & Answer grade 2: hp-book1-ch1-4_p023_paraC_00 (page 23) directly supports Sirius Black lending Hagrid the flying motorcycle."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context grade 2 & Answer grade 2: Dense retrieval + budget=1500 places hp-book1-ch1-4_p029_paraC_00 (page 29, '\"Thirty-nine, sweetums,\" said Aunt Petunia') in context, and the agent cites it directly."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context grade 2 & Answer grade 2: hp-book1-ch1-4_p041_paraC_01 (page 41) directly supports Dudley winning the fight for the keyhole."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context grade 2 & Answer grade 2: hp-book1-ch1-4_p058_paraC_00 (page 58) directly supports Halloween ten years ago when Harry was one year old."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context grade 2 & Answer grade 2: hp-book1-ch1-4_p059_paraC_01 (page 59) directly supports the battered pink umbrella pointed like a sword."
+  },
+  {
+    "query_id": "u03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention after 2 searches: Sorting Hat placement is not in Chapters 1-4."
+  },
+  {
+    "query_id": "u04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention: motorcycle license plate number is absent from the corpus."
+  }
+]

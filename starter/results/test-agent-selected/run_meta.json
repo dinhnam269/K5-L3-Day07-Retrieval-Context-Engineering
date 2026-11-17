@@ -1,0 +1,18 @@
+{
+  "config_name": "test-agent-selected",
+  "split": "test",
+  "retriever_type": "dense",
+  "model": "gemini-3.5-flash-lite",
+  "top_k": 3,
+  "budget": 1500,
+  "max_searches": 3,
+  "cases": 7,
+  "answered": 5,
+  "abstained": 2,
+  "errors": 0,
+  "avg_searches": 1.14,
+  "median_ms": 1218.46,
+  "total_input_tokens": 7172,
+  "total_output_tokens": 530,
+  "estimated_cost_usd": 0.001394
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly identifies Grunnings and drills, directly supported by hp-book1-ch1-4_p012_paraC_01 (page 12)."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "With budget=1500, rank-2 gold chunk hp-book1-ch1-4_p014_paraC_00 fits in context; agent accurately answers and cites it."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Complete and accurate description of Dumbledore's physical appearance, supported by hp-book1-ch1-4_p018_paraC_00 (page 18)."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly answers eleven years, supported by hp-book1-ch1-4_p020_paraC_00 (page 20)."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "audit_reason": "Dense retrieval + budget=1500 captures both hp-book1-ch1-4_p022_paraC_00 (wrote a letter) and hp-book1-ch1-4_p024_paraC_00 (tucked it in Harry's blankets on the doorstep); both citations are valid and jointly support the complete answer."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states the car-crash lie and the first rule ('Don't ask questions'), supported by hp-book1-ch1-4_p028_paraC_00 (page 28)."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Yvonne was on vacation in Majorca, supported by hp-book1-ch1-4_p030_paraC_00 (page 30)."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Harry dreamed about a flying motorcycle, supported by hp-book1-ch1-4_p032_paraC_00 (page 32)."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "With budget=1500, gold chunk hp-book1-ch1-4_p034_paraC_01 is included in context; agent accurately answers that the snake was bred in the zoo."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly lists all three items broken/crashed/knocked down by Dudley, supported by hp-book1-ch1-4_p037_paraC_00 (page 37)."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly lists lion, eagle, badger, and snake, supported by hp-book1-ch1-4_p040_paraC_00 (page 40)."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Dense retrieval ranks hp-book1-ch1-4_p044_paraC_00 at #1; agent accurately answers that Uncle Vernon slept at the foot of the front door in a sleeping bag."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Uncle Vernon was holding a rifle, supported by hp-book1-ch1-4_p050_paraC_00 (page 50)."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states September 1 and July 31, supported by hp-book1-ch1-4_p055_paraC_00 (page 55)."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Hagrid defines a Muggle as nonmagic folk, supported by hp-book1-ch1-4_p056_paraC_00 (page 56)."
+  },
+  {
+    "query_id": "u01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention after 2 searches: wand price at Ollivander's is absent from Chapters 1-4."
+  },
+  {
+    "query_id": "u02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention: Mr. Dursley's salary is not mentioned in the corpus."
+  }
+]

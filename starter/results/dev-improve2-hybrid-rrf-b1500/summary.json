@@ -1,0 +1,19 @@
+{
+  "config_name": "improve2-hybrid-rrf-b1500",
+  "strategy": "hybrid_rrf_b1500",
+  "split": "dev",
+  "n": 15,
+  "top_k": 3,
+  "budget_chars": 1500,
+  "hit1": 11,
+  "hit1_rate": 0.7333,
+  "hit3": 15,
+  "hit3_rate": 1.0,
+  "hit_k": 15,
+  "context_hit": 15,
+  "context_hit_rate": 1.0,
+  "avg_context_chars": 1139.27,
+  "median_ms": 44.1418,
+  "index_seconds": 0.0,
+  "service_cost_usd": 0.0
+}

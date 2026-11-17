@@ -1,0 +1,885 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Who lent Hagrid the flying motorcycle he used to bring baby Harry to Privet Drive in Chapter 1?",
+    "answerable": true,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Sirius Black lent Hagrid the flying motorcycle [hp-book1-ch1-4_p023_paraC_00].",
+    "citations": [
+      "hp-book1-ch1-4_p023_paraC_00"
+    ],
+    "num_searches": 1,
+    "queries": [
+      "Who lent Hagrid the flying motorcycle he used to bring baby Harry to Privet Drive in Chapter 1?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p023_paraC_00",
+      "hp-book1-ch1-4_p032_paraC_00"
+    ],
+    "final_context": "[hp-book1-ch1-4_p023_paraC_00 | data/harrypotter.pdf | page 23]\nlooked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”\n\n[hp-book1-ch1-4_p032_paraC_00 | data/harrypotter.pdf | page 32]\ncupboard, or Mrs. Figg’s cabbage-smelling living room.\n\nWhile he drove, Uncle Vernon complained to Aunt Petunia. He liked to complain about things: people at work, Harry, the council, Harry, the bank, and Harry were just a few of his favorite subjects. This morning, it was motorcycles.\n\n“. . . roaring along like maniacs, the young hoodlums,” he said, as a motorcycle overtook them.\n\n“I had a dream about a motorcycle,” said Harry, remembering suddenly. “It was flying.”",
+    "events": [
+      {
+        "event": "search",
+        "query": "Who lent Hagrid the flying motorcycle he used to bring baby Harry to Privet Drive in Chapter 1?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p023_paraC_00",
+            "text": "looked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 23,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 23,
+              "section": "chapter_1",
+              "chapter_title": "The Boy Who Lived",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1781,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 571
+            },
+            "score": 0.757865,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p032_paraC_00",
+            "text": "cupboard, or Mrs. Figg’s cabbage-smelling living room.\n\nWhile he drove, Uncle Vernon complained to Aunt Petunia. He liked to complain about things: people at work, Harry, the council, Harry, the bank, and Harry were just a few of his favorite subjects. This morning, it was motorcycles.\n\n“. . . roaring along like maniacs, the young hoodlums,” he said, as a motorcycle overtook them.\n\n“I had a dream about a motorcycle,” said Harry, remembering suddenly. “It was flying.”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 32,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 32,
+              "section": "chapter_2",
+              "chapter_title": "The Vanishing Glass",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1929,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 471
+            },
+            "score": 0.724431,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p024_paraC_02",
+            "text": "Wiping his streaming eyes on his jacket sleeve, Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night.\n\n“I shall see you soon, I expect, Professor McGonagall,” said Dumbledore, nodding to her. Professor McGonagall blew her nose in reply.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 24,
+              "section": "chapter_1",
+              "chapter_title": "The Boy Who Lived",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2110,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 313
+            },
+            "score": 0.72239,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p023_paraC_00 | data/harrypotter.pdf | page 23]\nlooked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”\n\n[hp-book1-ch1-4_p032_paraC_00 | data/harrypotter.pdf | page 32]\ncupboard, or Mrs. Figg’s cabbage-smelling living room.\n\nWhile he drove, Uncle Vernon complained to Aunt Petunia. He liked to complain about things: people at work, Harry, the council, Harry, the bank, and Harry were just a few of his favorite subjects. This morning, it was motorcycles.\n\n“. . . roaring along like maniacs, the young hoodlums,” he said, as a motorcycle overtook them.\n\n“I had a dream about a motorcycle,” said Harry, remembering suddenly. “It was flying.”",
+        "context_ids": [
+          "hp-book1-ch1-4_p023_paraC_00",
+          "hp-book1-ch1-4_p032_paraC_00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1218.46,
+    "input_tokens": 878,
+    "output_tokens": 82
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "How many presents did Aunt Petunia say Dudley would have in total on his birthday after promising to buy him two more?",
+    "answerable": true,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Aunt Petunia said Dudley would have thirty-nine presents in total [hp-book1-ch1-4_p029_paraC_00].",
+    "citations": [
+      "hp-book1-ch1-4_p029_paraC_00"
+    ],
+    "num_searches": 1,
+    "queries": [
+      "How many presents did Aunt Petunia say Dudley would have in total on his birthday after promising to buy him two more?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p028_paraC_03",
+      "hp-book1-ch1-4_p029_paraC_00"
+    ],
+    "final_context": "[hp-book1-ch1-4_p028_paraC_03 | data/harrypotter.pdf | page 28]\n“Thirty-six,” he said, looking up at his mother and father. “That’s two less than last year.”\n\n“Darling, you haven’t counted Auntie Marge’s present, see, it’s here under this big one from Mummy and Daddy.”\n\n“All right, thirty-seven then,” said Dudley, going red in the face. Harry, who could see a huge Dudley tantrum coming on, began wolfing down his bacon as fast as possible in case Dudley turned the table over.\n\nAunt Petunia obviously scented danger, too, because she said quickly, “And we’ll buy you another two presents while we’re out today. How’s that, popkin?\n\n[hp-book1-ch1-4_p029_paraC_00 | data/harrypotter.pdf | page 29]\nDudley thought for a moment. It looked like hard work. Finally he said slowly, “So I’ll have thirty . . . thirty . . .”\n\n“Thirty-nine, sweetums,” said Aunt Petunia.\n\n“Oh.” Dudley sat down heavily and grabbed the nearest parcel. “All right then.”\n\nUncle Vernon chuckled.\n\n“Little tyke wants his money’s worth, just like his father. ’Atta boy, Dudley!” He ruffled Dudley’s hair.",
+    "events": [
+      {
+        "event": "search",
+        "query": "How many presents did Aunt Petunia say Dudley would have in total on his birthday after promising to buy him two more?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p028_paraC_03",
+            "text": "“Thirty-six,” he said, looking up at his mother and father. “That’s two less than last year.”\n\n“Darling, you haven’t counted Auntie Marge’s present, see, it’s here under this big one from Mummy and Daddy.”\n\n“All right, thirty-seven then,” said Dudley, going red in the face. Harry, who could see a huge Dudley tantrum coming on, began wolfing down his bacon as fast as possible in case Dudley turned the table over.\n\nAunt Petunia obviously scented danger, too, because she said quickly, “And we’ll buy you another two presents while we’re out today. How’s that, popkin?",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 28,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 28,
+              "section": "chapter_2",
+              "chapter_title": "The Vanishing Glass",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1868,
+              "chunk_index": 3,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 569
+            },
+            "score": 0.800547,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p029_paraC_00",
+            "text": "Dudley thought for a moment. It looked like hard work. Finally he said slowly, “So I’ll have thirty . . . thirty . . .”\n\n“Thirty-nine, sweetums,” said Aunt Petunia.\n\n“Oh.” Dudley sat down heavily and grabbed the nearest parcel. “All right then.”\n\nUncle Vernon chuckled.\n\n“Little tyke wants his money’s worth, just like his father. ’Atta boy, Dudley!” He ruffled Dudley’s hair.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 29,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 29,
+              "section": "chapter_2",
+              "chapter_title": "The Vanishing Glass",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1841,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 376
+            },
+            "score": 0.779244,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p027_paraC_02",
+            "text": "When he was dressed he went down the hall into the kitchen. The table was almost hidden beneath all Dudley’s birthday presents. It looked as though Dudley had gotten the new computer he wanted, not to mention the second television and the racing bike. Exactly why Dudley wanted a racing bike was a mystery to Harry, as Dudley was very fat and hated exercise — unless of course it involved punching somebody. Dudley’s favorite punching bag was Harry, but he couldn’t often catch him. Harry didn’t look it, but he was very fast.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 27,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 27,
+              "section": "chapter_2",
+              "chapter_title": "The Vanishing Glass",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1863,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 526
+            },
+            "score": 0.760927,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p028_paraC_03 | data/harrypotter.pdf | page 28]\n“Thirty-six,” he said, looking up at his mother and father. “That’s two less than last year.”\n\n“Darling, you haven’t counted Auntie Marge’s present, see, it’s here under this big one from Mummy and Daddy.”\n\n“All right, thirty-seven then,” said Dudley, going red in the face. Harry, who could see a huge Dudley tantrum coming on, began wolfing down his bacon as fast as possible in case Dudley turned the table over.\n\nAunt Petunia obviously scented danger, too, because she said quickly, “And we’ll buy you another two presents while we’re out today. How’s that, popkin?\n\n[hp-book1-ch1-4_p029_paraC_00 | data/harrypotter.pdf | page 29]\nDudley thought for a moment. It looked like hard work. Finally he said slowly, “So I’ll have thirty . . . thirty . . .”\n\n“Thirty-nine, sweetums,” said Aunt Petunia.\n\n“Oh.” Dudley sat down heavily and grabbed the nearest parcel. “All right then.”\n\nUncle Vernon chuckled.\n\n“Little tyke wants his money’s worth, just like his father. ’Atta boy, Dudley!” He ruffled Dudley’s hair.",
+        "context_ids": [
+          "hp-book1-ch1-4_p028_paraC_03",
+          "hp-book1-ch1-4_p029_paraC_00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 920.19,
+    "input_tokens": 880,
+    "output_tokens": 87
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "When Harry and Dudley fought over who would listen at the kitchen door after Uncle Vernon threw them into the hall, why did Harry end up lying flat on his stomach to listen at the crack under the door?",
+    "answerable": true,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Harry ended up lying flat on his stomach to listen at the crack between the door and floor because Dudley won their furious but silent fight over who would get to listen at the keyhole [hp-book1-ch1-4_p041_paraC_01].",
+    "citations": [
+      "hp-book1-ch1-4_p041_paraC_01"
+    ],
+    "num_searches": 1,
+    "queries": [
+      "When Harry and Dudley fought over who would listen at the kitchen door after Uncle Vernon threw them into the hall, why did Harry end up lying flat on his stomach to listen at the crack under the door?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p041_paraC_01",
+      "hp-book1-ch1-4_p043_paraC_02"
+    ],
+    "final_context": "[hp-book1-ch1-4_p041_paraC_01 | data/harrypotter.pdf | page 41]\n“OUT!” roared Uncle Vernon, and he took both Harry and Dudley by the scruffs of their necks and threw them into the hall, slamming the kitchen door behind them. Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor.\n\n“Vernon,” Aunt Petunia was saying in a quivering voice, “look at the address — how could they possibly know where he sleeps? You don’t think they’re watching the house?”\n\n[hp-book1-ch1-4_p043_paraC_02 | data/harrypotter.pdf | page 43]\nWith a strangled cry, Uncle Vernon leapt from his seat and ran down the hall, Harry right behind him. Uncle Vernon had to wrestle Dudley to the ground to get the letter from him, which was made difficult by the fact that Harry had grabbed Uncle Vernon around the neck from behind. After a minute of confused fighting, in which everyone got hit a lot by the Smelting stick, Uncle Vernon straightened up, gasping for breath, with Harry’s letter clutched in his hand.\n\n“Go to your cupboard — I mean, your bedroom,” he wheezed at Harry.\n\n“Dudley — go — just go.”",
+    "events": [
+      {
+        "event": "search",
+        "query": "When Harry and Dudley fought over who would listen at the kitchen door after Uncle Vernon threw them into the hall, why did Harry end up lying flat on his stomach to listen at the crack under the door?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p041_paraC_01",
+            "text": "“OUT!” roared Uncle Vernon, and he took both Harry and Dudley by the scruffs of their necks and threw them into the hall, slamming the kitchen door behind them. Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor.\n\n“Vernon,” Aunt Petunia was saying in a quivering voice, “look at the address — how could they possibly know where he sleeps? You don’t think they’re watching the house?”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 41,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 41,
+              "section": "chapter_3",
+              "chapter_title": "The Letters from No One",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1500,
+              "chunk_index": 1,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 554
+            },
+            "score": 0.819963,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p043_paraC_02",
+            "text": "With a strangled cry, Uncle Vernon leapt from his seat and ran down the hall, Harry right behind him. Uncle Vernon had to wrestle Dudley to the ground to get the letter from him, which was made difficult by the fact that Harry had grabbed Uncle Vernon around the neck from behind. After a minute of confused fighting, in which everyone got hit a lot by the Smelting stick, Uncle Vernon straightened up, gasping for breath, with Harry’s letter clutched in his hand.\n\n“Go to your cupboard — I mean, your bedroom,” he wheezed at Harry.\n\n“Dudley — go — just go.”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 43,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 43,
+              "section": "chapter_3",
+              "chapter_title": "The Letters from No One",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2009,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 558
+            },
+            "score": 0.769756,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p042_paraC_03",
+            "text": "From downstairs came the sound of Dudley bawling at his mother, “I don’t want him in there . . . I need that room . . . make him get out. . . .”\n\nHarry sighed and stretched out on the bed. Yesterday he’d have given anything to be up here. Today he’d rather be back in his cupboard with that letter than up here without it.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 42,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 42,
+              "section": "chapter_3",
+              "chapter_title": "The Letters from No One",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2001,
+              "chunk_index": 3,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 322
+            },
+            "score": 0.757284,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p041_paraC_01 | data/harrypotter.pdf | page 41]\n“OUT!” roared Uncle Vernon, and he took both Harry and Dudley by the scruffs of their necks and threw them into the hall, slamming the kitchen door behind them. Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor.\n\n“Vernon,” Aunt Petunia was saying in a quivering voice, “look at the address — how could they possibly know where he sleeps? You don’t think they’re watching the house?”\n\n[hp-book1-ch1-4_p043_paraC_02 | data/harrypotter.pdf | page 43]\nWith a strangled cry, Uncle Vernon leapt from his seat and ran down the hall, Harry right behind him. Uncle Vernon had to wrestle Dudley to the ground to get the letter from him, which was made difficult by the fact that Harry had grabbed Uncle Vernon around the neck from behind. After a minute of confused fighting, in which everyone got hit a lot by the Smelting stick, Uncle Vernon straightened up, gasping for breath, with Harry’s letter clutched in his hand.\n\n“Go to your cupboard — I mean, your bedroom,” he wheezed at Harry.\n\n“Dudley — go — just go.”",
+        "context_ids": [
+          "hp-book1-ch1-4_p041_paraC_01",
+          "hp-book1-ch1-4_p043_paraC_02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1124.04,
+    "input_tokens": 919,
+    "output_tokens": 109
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "On what holiday and how many years ago did You-Know-Who show up at the village where Harry’s family was living, and how old was Harry at the time?",
+    "answerable": true,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "You-Know-Who showed up at the village on Halloween ten years ago, and Harry was just a year old at the time [hp-book1-ch1-4_p058_paraC_00].",
+    "citations": [
+      "hp-book1-ch1-4_p058_paraC_00"
+    ],
+    "num_searches": 1,
+    "queries": [
+      "On what holiday and how many years ago did You-Know-Who show up at the village where Harry’s family was living, and how old was Harry at the time?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p058_paraC_00",
+      "hp-book1-ch1-4_p058_paraC_01"
+    ],
+    "final_context": "[hp-book1-ch1-4_p058_paraC_00 | data/harrypotter.pdf | page 58]\nKnow-Who never tried to get ’em on his side before . . . probably knew they were too close ter Dumbledore ter want anythin’ ter do with the Dark Side.\n\n“Maybe he thought he could persuade ’em . . . maybe he just wanted ’em outta the way. All anyone knows is, he turned up in the village where you was all living, on Halloween ten years ago. You was just a year old. He came ter yer house an’— an’— ”\n\nHagrid suddenly pulled out a very dirty, spotted handkerchief and blew his nose with a sound like a foghorn.\n\n[hp-book1-ch1-4_p058_paraC_01 | data/harrypotter.pdf | page 58]\n“Sorry,” he said. “But it’s that sad — knew yer mum an’ dad, an’ nicer people yeh couldn’t find — anyway . . .\n\n“You-Know-Who killed ’em. An’ then — an’ this is the real myst’ry of the thing — he tried to kill you, too. Wanted ter make a clean job of it, I suppose, or maybe he just liked killin’ by then. But he couldn’t do it. Never wondered how you got that mark on yer forehead? That was no ordinary cut. That’s what yeh get when a powerful, evil curse touches yeh — took care of yer mum an’ dad an’ yer house, even — but it didn’t work on you, an’ that’s why yer famous, Harry.",
+    "events": [
+      {
+        "event": "search",
+        "query": "On what holiday and how many years ago did You-Know-Who show up at the village where Harry’s family was living, and how old was Harry at the time?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p058_paraC_00",
+            "text": "Know-Who never tried to get ’em on his side before . . . probably knew they were too close ter Dumbledore ter want anythin’ ter do with the Dark Side.\n\n“Maybe he thought he could persuade ’em . . . maybe he just wanted ’em outta the way. All anyone knows is, he turned up in the village where you was all living, on Halloween ten years ago. You was just a year old. He came ter yer house an’— an’— ”\n\nHagrid suddenly pulled out a very dirty, spotted handkerchief and blew his nose with a sound like a foghorn.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 58,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 58,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2021,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 509
+            },
+            "score": 0.774292,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p058_paraC_01",
+            "text": "“Sorry,” he said. “But it’s that sad — knew yer mum an’ dad, an’ nicer people yeh couldn’t find — anyway . . .\n\n“You-Know-Who killed ’em. An’ then — an’ this is the real myst’ry of the thing — he tried to kill you, too. Wanted ter make a clean job of it, I suppose, or maybe he just liked killin’ by then. But he couldn’t do it. Never wondered how you got that mark on yer forehead? That was no ordinary cut. That’s what yeh get when a powerful, evil curse touches yeh — took care of yer mum an’ dad an’ yer house, even — but it didn’t work on you, an’ that’s why yer famous, Harry.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 58,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 58,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2021,
+              "chunk_index": 1,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 582
+            },
+            "score": 0.724017,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p057_paraC_03",
+            "text": "make me say it again. Anyway, this — this wizard, about twenty years ago now, started lookin’ fer followers. Got ’em, too — some were afraid, some just wanted a bit o’ his power, ’cause he was gettin’ himself power, all right. Dark days, Harry. Didn’t know who ter trust, didn’t dare get friendly with strange wizards or witches . . . terrible things happened. He was takin’ over. ’Course, some stood up to him — an’ he killed ’em. Horribly. One o’ the only safe places left was Hogwarts. Reckon Dumbledore’s the only one You- Know-Who was afraid of.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 57,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 57,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1867,
+              "chunk_index": 3,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 550
+            },
+            "score": 0.695823,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p058_paraC_00 | data/harrypotter.pdf | page 58]\nKnow-Who never tried to get ’em on his side before . . . probably knew they were too close ter Dumbledore ter want anythin’ ter do with the Dark Side.\n\n“Maybe he thought he could persuade ’em . . . maybe he just wanted ’em outta the way. All anyone knows is, he turned up in the village where you was all living, on Halloween ten years ago. You was just a year old. He came ter yer house an’— an’— ”\n\nHagrid suddenly pulled out a very dirty, spotted handkerchief and blew his nose with a sound like a foghorn.\n\n[hp-book1-ch1-4_p058_paraC_01 | data/harrypotter.pdf | page 58]\n“Sorry,” he said. “But it’s that sad — knew yer mum an’ dad, an’ nicer people yeh couldn’t find — anyway . . .\n\n“You-Know-Who killed ’em. An’ then — an’ this is the real myst’ry of the thing — he tried to kill you, too. Wanted ter make a clean job of it, I suppose, or maybe he just liked killin’ by then. But he couldn’t do it. Never wondered how you got that mark on yer forehead? That was no ordinary cut. That’s what yeh get when a powerful, evil curse touches yeh — took care of yer mum an’ dad an’ yer house, even — but it didn’t work on you, an’ that’s why yer famous, Harry.",
+        "context_ids": [
+          "hp-book1-ch1-4_p058_paraC_00",
+          "hp-book1-ch1-4_p058_paraC_01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1527.59,
+    "input_tokens": 949,
+    "output_tokens": 99
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?",
+    "answerable": true,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "answered",
+    "answer": "Hagrid drew a battered pink umbrella from inside his coat and pointed it like a sword at Uncle Vernon [hp-book1-ch1-4_p059_paraC_01].",
+    "citations": [
+      "hp-book1-ch1-4_p059_paraC_01"
+    ],
+    "num_searches": 1,
+    "queries": [
+      "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p059_paraC_01",
+      "hp-book1-ch1-4_p061_paraC_00"
+    ],
+    "final_context": "[hp-book1-ch1-4_p059_paraC_01 | data/harrypotter.pdf | page 59]\nBut at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .” In danger of being speared on the end of an umbrella by a bearded giant, Uncle Vernon’s courage failed again; he flattened himself against the wall and fell silent.\n\n“That’s better,” said Hagrid, breathing heavily and sitting back down on the sofa, which this time sagged right down to the floor.\n\nHarry, meanwhile, still had questions to ask, hundreds of them.\n\n[hp-book1-ch1-4_p061_paraC_00 | data/harrypotter.pdf | page 61]\nHIM MAGIC TRICKS!” yelled Uncle Vernon.\n\nBut he had finally gone too far. Hagrid seized his umbrella and whirled it over his head, “NEVER —” he thundered, “— INSULT — ALBUS — DUMBLEDORE — IN — FRONT — OF — ME!”\n\nHe brought the umbrella swishing down through the air to point at Dudley — there was a flash of violet light, a sound like a firecracker, a sharp squeal, and the next second, Dudley was dancing on the spot with his hands clasped over his fat bottom, howling in pain. When he turned his back on them, Harry saw a curly pig’s tail poking through a hole in his trousers.",
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p059_paraC_01",
+            "text": "But at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .” In danger of being speared on the end of an umbrella by a bearded giant, Uncle Vernon’s courage failed again; he flattened himself against the wall and fell silent.\n\n“That’s better,” said Hagrid, breathing heavily and sitting back down on the sofa, which this time sagged right down to the floor.\n\nHarry, meanwhile, still had questions to ask, hundreds of them.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 59,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 59,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2083,
+              "chunk_index": 1,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 584
+            },
+            "score": 0.768927,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p061_paraC_00",
+            "text": "HIM MAGIC TRICKS!” yelled Uncle Vernon.\n\nBut he had finally gone too far. Hagrid seized his umbrella and whirled it over his head, “NEVER —” he thundered, “— INSULT — ALBUS — DUMBLEDORE — IN — FRONT — OF — ME!”\n\nHe brought the umbrella swishing down through the air to point at Dudley — there was a flash of violet light, a sound like a firecracker, a sharp squeal, and the next second, Dudley was dancing on the spot with his hands clasped over his fat bottom, howling in pain. When he turned his back on them, Harry saw a curly pig’s tail poking through a hole in his trousers.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 61,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 61,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1927,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 579
+            },
+            "score": 0.751885,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p054_paraC_00",
+            "text": "A braver man than Vernon Dursley would have quailed under the furious look Hagrid now gave him; when Hagrid spoke, his every syllable trembled with rage.\n\n“You never told him? Never told him what was in the letter Dumbledore left fer him? I was there! I saw Dumbledore leave it, Dursley! An’ you’ve kept it from him all these years?”\n\n“Kept what from me?” said Harry eagerly.\n\n“STOP! I FORBID YOU!” yelled Uncle Vernon in panic.\n\nAunt Petunia gave a gasp of horror.\n\n“Ah, go boil yer heads, both of yeh,” said Hagrid. “Harry — yer a wizard.”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 54,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 54,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1452,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 541
+            },
+            "score": 0.735094,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p059_paraC_01 | data/harrypotter.pdf | page 59]\nBut at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .” In danger of being speared on the end of an umbrella by a bearded giant, Uncle Vernon’s courage failed again; he flattened himself against the wall and fell silent.\n\n“That’s better,” said Hagrid, breathing heavily and sitting back down on the sofa, which this time sagged right down to the floor.\n\nHarry, meanwhile, still had questions to ask, hundreds of them.\n\n[hp-book1-ch1-4_p061_paraC_00 | data/harrypotter.pdf | page 61]\nHIM MAGIC TRICKS!” yelled Uncle Vernon.\n\nBut he had finally gone too far. Hagrid seized his umbrella and whirled it over his head, “NEVER —” he thundered, “— INSULT — ALBUS — DUMBLEDORE — IN — FRONT — OF — ME!”\n\nHe brought the umbrella swishing down through the air to point at Dudley — there was a flash of violet light, a sound like a firecracker, a sharp squeal, and the next second, Dudley was dancing on the spot with his hands clasped over his fat bottom, howling in pain. When he turned his back on them, Harry saw a curly pig’s tail poking through a hole in his trousers.",
+        "context_ids": [
+          "hp-book1-ch1-4_p059_paraC_01",
+          "hp-book1-ch1-4_p061_paraC_00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1091.53,
+    "input_tokens": 929,
+    "output_tokens": 94
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "Which Hogwarts house did the Sorting Hat place Harry Potter into during the start-of-term banquet?",
+    "answerable": false,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "num_searches": 2,
+    "queries": [
+      "Which Hogwarts house did the Sorting Hat place Harry Potter into during the start-of-term banquet?",
+      "Harry Potter Sorting Hat house Gryffindor banquet"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p054_paraC_02",
+      "hp-book1-ch1-4_p039_paraC_02"
+    ],
+    "final_context": "[hp-book1-ch1-4_p054_paraC_02 | data/harrypotter.pdf | page 54]\nHarry stretched out his hand at last to take the yellowish envelope, addressed in emerald green to Mr. H. Potter, The Floor, Hut-on-the-Rock, The Sea. He pulled out the letter and read: HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY Headmaster: Albus Dumbledore (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards) Dear Mr. Potter, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list\n\n[hp-book1-ch1-4_p039_paraC_02 | data/harrypotter.pdf | page 39]\nHarry picked it up and stared at it, his heart twanging like a giant elastic band. No one, ever, in his whole life, had written to him. Who would? He had no friends, no other relatives — he didn’t belong to the library, so he’d never even got rude notes asking for books back. Yet here it was, a letter, addressed so plainly there could be no mistake: Mr. H. Potter The Cupboard under the Stairs 4 Privet Drive Little Whinging Surrey The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald-green ink. There was no stamp.",
+    "events": [
+      {
+        "event": "search",
+        "query": "Which Hogwarts house did the Sorting Hat place Harry Potter into during the start-of-term banquet?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p054_paraC_02",
+            "text": "Harry stretched out his hand at last to take the yellowish envelope, addressed in emerald green to Mr. H. Potter, The Floor, Hut-on-the-Rock, The Sea. He pulled out the letter and read: HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY Headmaster: Albus Dumbledore (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards) Dear Mr. Potter, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 54,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 54,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1452,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 515
+            },
+            "score": 0.684156,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p039_paraC_02",
+            "text": "Harry picked it up and stared at it, his heart twanging like a giant elastic band. No one, ever, in his whole life, had written to him. Who would? He had no friends, no other relatives — he didn’t belong to the library, so he’d never even got rude notes asking for books back. Yet here it was, a letter, addressed so plainly there could be no mistake: Mr. H. Potter The Cupboard under the Stairs 4 Privet Drive Little Whinging Surrey The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald-green ink. There was no stamp.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 39,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 39,
+              "section": "chapter_3",
+              "chapter_title": "The Letters from No One",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1461,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 566
+            },
+            "score": 0.661316,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p024_paraC_00",
+            "text": "burying his face in it. “But I c-c-can’t stand it — Lily an’ James dead — an’ poor little Harry off ter live with Muggles —”\n\n“Yes, yes, it’s all very sad, but get a grip on yourself, Hagrid, or we’ll be found,” Professor McGonagall whispered, patting Hagrid gingerly on the arm as Dumbledore stepped over the low garden wall and walked to the front door. He laid Harry gently on the doorstep, took a letter out of his cloak, tucked it inside Harry’s blankets, and then came back to the other two.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 24,
+              "section": "chapter_1",
+              "chapter_title": "The Boy Who Lived",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2110,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 497
+            },
+            "score": 0.651965,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p054_paraC_02 | data/harrypotter.pdf | page 54]\nHarry stretched out his hand at last to take the yellowish envelope, addressed in emerald green to Mr. H. Potter, The Floor, Hut-on-the-Rock, The Sea. He pulled out the letter and read: HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY Headmaster: Albus Dumbledore (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards) Dear Mr. Potter, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list\n\n[hp-book1-ch1-4_p039_paraC_02 | data/harrypotter.pdf | page 39]\nHarry picked it up and stared at it, his heart twanging like a giant elastic band. No one, ever, in his whole life, had written to him. Who would? He had no friends, no other relatives — he didn’t belong to the library, so he’d never even got rude notes asking for books back. Yet here it was, a letter, addressed so plainly there could be no mistake: Mr. H. Potter The Cupboard under the Stairs 4 Privet Drive Little Whinging Surrey The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald-green ink. There was no stamp.",
+        "context_ids": [
+          "hp-book1-ch1-4_p054_paraC_02",
+          "hp-book1-ch1-4_p039_paraC_02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Harry Potter Sorting Hat house Gryffindor banquet",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p054_paraC_02",
+            "text": "Harry stretched out his hand at last to take the yellowish envelope, addressed in emerald green to Mr. H. Potter, The Floor, Hut-on-the-Rock, The Sea. He pulled out the letter and read: HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY Headmaster: Albus Dumbledore (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards) Dear Mr. Potter, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 54,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 54,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1452,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 515
+            },
+            "score": 0.630303,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p052_paraC_02",
+            "text": "Uncle Vernon said sharply, “Don’t touch anything he gives you, Dudley.”\n\nThe giant chuckled darkly.\n\n“Yer great puddin’ of a son don’ need fattenin’ anymore, Dursley, don’\n\nworry.”\n\nHe passed the sausages to Harry, who was so hungry he had never tasted anything so wonderful, but he still couldn’t take his eyes off the giant. Finally, as nobody seemed about to explain anything, he said, “I’m sorry, but I still don’t really know who you are.”\n\nThe giant took a gulp of tea and wiped his mouth with the back of his hand.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 52,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 52,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1895,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 521
+            },
+            "score": 0.629903,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p051_paraC_02",
+            "text": "From an inside pocket of his black overcoat he pulled a slightly squashed box. Harry opened it with trembling fingers. Inside was a large, sticky chocolate cake with Happy Birthday Harry written on it in green icing.\n\nHarry looked up at the giant. He meant to say thank you, but the words got lost on the way to his mouth, and what he said instead was, “Who are you?” The giant chuckled.\n\n“True, I haven’t introduced meself. Rubeus Hagrid, Keeper of Keys and Grounds at Hogwarts.”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 51,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 51,
+              "section": "chapter_4",
+              "chapter_title": "The Keeper of the Keys",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1607,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 480
+            },
+            "score": 0.628245,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p054_paraC_02 | data/harrypotter.pdf | page 54]\nHarry stretched out his hand at last to take the yellowish envelope, addressed in emerald green to Mr. H. Potter, The Floor, Hut-on-the-Rock, The Sea. He pulled out the letter and read: HOGWARTS SCHOOL of WITCHCRAFT and WIZARDRY Headmaster: Albus Dumbledore (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards) Dear Mr. Potter, We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list\n\n[hp-book1-ch1-4_p039_paraC_02 | data/harrypotter.pdf | page 39]\nHarry picked it up and stared at it, his heart twanging like a giant elastic band. No one, ever, in his whole life, had written to him. Who would? He had no friends, no other relatives — he didn’t belong to the library, so he’d never even got rude notes asking for books back. Yet here it was, a letter, addressed so plainly there could be no mistake: Mr. H. Potter The Cupboard under the Stairs 4 Privet Drive Little Whinging Surrey The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald-green ink. There was no stamp.",
+        "context_ids": [
+          "hp-book1-ch1-4_p054_paraC_02",
+          "hp-book1-ch1-4_p039_paraC_02"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 4057.8,
+    "input_tokens": 1779,
+    "output_tokens": 36
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "What was the license plate number of the flying motorcycle that Sirius Black lent to Hagrid in Chapter 1?",
+    "answerable": false,
+    "config_name": "test-agent-selected",
+    "retriever_type": "dense",
+    "model": "gemini-3.5-flash-lite",
+    "top_k": 3,
+    "budget": 1500,
+    "max_searches": 3,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "num_searches": 1,
+    "queries": [
+      "What was the license plate number of the flying motorcycle that Sirius Black lent to Hagrid in Chapter 1?"
+    ],
+    "final_context_ids": [
+      "hp-book1-ch1-4_p023_paraC_00",
+      "hp-book1-ch1-4_p024_paraC_02"
+    ],
+    "final_context": "[hp-book1-ch1-4_p023_paraC_00 | data/harrypotter.pdf | page 23]\nlooked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”\n\n[hp-book1-ch1-4_p024_paraC_02 | data/harrypotter.pdf | page 24]\nWiping his streaming eyes on his jacket sleeve, Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night.\n\n“I shall see you soon, I expect, Professor McGonagall,” said Dumbledore, nodding to her. Professor McGonagall blew her nose in reply.",
+    "events": [
+      {
+        "event": "search",
+        "query": "What was the license plate number of the flying motorcycle that Sirius Black lent to Hagrid in Chapter 1?",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4_p023_paraC_00",
+            "text": "looked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 23,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 23,
+              "section": "chapter_1",
+              "chapter_title": "The Boy Who Lived",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1781,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 571
+            },
+            "score": 0.757015,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p024_paraC_02",
+            "text": "Wiping his streaming eyes on his jacket sleeve, Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night.\n\n“I shall see you soon, I expect, Professor McGonagall,” said Dumbledore, nodding to her. Professor McGonagall blew her nose in reply.",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 24,
+              "section": "chapter_1",
+              "chapter_title": "The Boy Who Lived",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 2110,
+              "chunk_index": 2,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 313
+            },
+            "score": 0.720868,
+            "strategy": "dense"
+          },
+          {
+            "id": "hp-book1-ch1-4_p032_paraC_00",
+            "text": "cupboard, or Mrs. Figg’s cabbage-smelling living room.\n\nWhile he drove, Uncle Vernon complained to Aunt Petunia. He liked to complain about things: people at work, Harry, the council, Harry, the bank, and Harry were just a few of his favorite subjects. This morning, it was motorcycles.\n\n“. . . roaring along like maniacs, the young hoodlums,” he said, as a motorcycle overtook them.\n\n“I had a dream about a motorcycle,” said Harry, remembering suddenly. “It was flying.”",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 32,
+            "metadata": {
+              "document_id": "hp-book1-ch1-4",
+              "source": "data/harrypotter.pdf",
+              "page": 32,
+              "section": "chapter_2",
+              "chapter_title": "The Vanishing Glass",
+              "book": "Book 1 - Harry Potter and the Sorcerer's Stone",
+              "language": "en",
+              "char_count": 1929,
+              "chunk_index": 0,
+              "chunking_method": "by_paragraph",
+              "max_size_param": 600,
+              "char_length": 471
+            },
+            "score": 0.706946,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[hp-book1-ch1-4_p023_paraC_00 | data/harrypotter.pdf | page 23]\nlooked simply too big to be allowed, and so wild — long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.\n\n“Hagrid,” said Dumbledore, sounding relieved. “At last. And where did you get that motorcycle?”\n\n“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”\n\n“No problems, were there?”\n\n[hp-book1-ch1-4_p024_paraC_02 | data/harrypotter.pdf | page 24]\nWiping his streaming eyes on his jacket sleeve, Hagrid swung himself onto the motorcycle and kicked the engine into life; with a roar it rose into the air and off into the night.\n\n“I shall see you soon, I expect, Professor McGonagall,” said Dumbledore, nodding to her. Professor McGonagall blew her nose in reply.",
+        "context_ids": [
+          "hp-book1-ch1-4_p023_paraC_00",
+          "hp-book1-ch1-4_p024_paraC_02"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 2040.98,
+    "input_tokens": 838,
+    "output_tokens": 23
+  }
+]

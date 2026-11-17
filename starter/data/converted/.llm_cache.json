@@ -1,0 +1,580 @@
+{
+  "627697b23f86a5b172157d82b21f797b021081b117e039dc36b0e270d589afbf": {
+    "decision": {
+      "action": "search",
+      "query": "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?"
+    },
+    "prompt_tokens": 372,
+    "completion_tokens": 42
+  },
+  "f6b44927ea58a87c02811f74bb1ad0a5581ed1b6439508c7c939e6fee199285b": {
+    "decision": {
+      "action": "search",
+      "query": "Mr Dursley firm name product drills Grunnings"
+    },
+    "prompt_tokens": 699,
+    "completion_tokens": 22
+  },
+  "add5e9b8098358fba749645993d097a9342fe0fda6a0c2b05812c105515f79c4": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 711,
+    "completion_tokens": 15
+  },
+  "e49794989e1b8ed9ffc221820b6317a97a85eebb049343bfa17960da325700cb": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 690,
+    "completion_tokens": 23
+  },
+  "1095b4b555d459fc9ab6388e49600823cf50f797455b5a35e92ba1296cc1452e": {
+    "decision": {
+      "action": "answer",
+      "answer": "Albus Dumbledore is described as tall, thin, and very old with silver hair and a beard both long enough to tuck into his belt [hp-book1-ch1-4_p018_paraC_00]. He has light, bright, sparkling blue eyes behind half-moon spectacles, and his nose is very long and crooked, as if it had been broken at least twice [hp-book1-ch1-4_p018_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p018_paraC_00"
+      ]
+    },
+    "prompt_tokens": 697,
+    "completion_tokens": 157
+  },
+  "5d6b6c712df332005b97db124d34c6fb985e9dc94663a61613f34b39f7601c3c": {
+    "decision": {
+      "action": "answer",
+      "answer": "Dumbledore had been trying to persuade people to call Voldemort by his proper name for eleven years [hp-book1-ch1-4_p020_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p020_paraC_00"
+      ]
+    },
+    "prompt_tokens": 765,
+    "completion_tokens": 78
+  },
+  "3da36aae88f1312c0f4a704f9191ae3a6f14c990604ac96d830a24080a0d5655": {
+    "decision": {
+      "action": "answer",
+      "answer": "Dumbledore planned to have Harry's aunt and uncle explain everything to him when he was older, and he wrote them a letter to explain the situation [hp-book1-ch1-4_p022_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p022_paraC_00"
+      ]
+    },
+    "prompt_tokens": 773,
+    "completion_tokens": 104
+  },
+  "55716c70dc956717aaa586a87b7c7f7de14f075574ff29fe346d7c53a26f7415": {
+    "decision": {
+      "action": "answer",
+      "answer": "Aunt Petunia told Harry that he got his scar in the car crash when his parents died [hp-book1-ch1-4_p028_paraC_00]. The first rule for a quiet life with the Dursleys was \"Don’t ask questions\" [hp-book1-ch1-4_p028_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p028_paraC_00"
+      ]
+    },
+    "prompt_tokens": 704,
+    "completion_tokens": 134
+  },
+  "b82f908a353f911b89464dc232e1c7767305c3684e170be74819814f7b9eaf41": {
+    "decision": {
+      "action": "answer",
+      "answer": "Aunt Petunia's friend Yvonne couldn't look after Harry because she was on vacation in Majorca [hp-book1-ch1-4_p030_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p030_paraC_00"
+      ]
+    },
+    "prompt_tokens": 716,
+    "completion_tokens": 95
+  },
+  "affbe3c560efe77f7dd60eb9b5a8984b63e6328cb03d948820ea44c1bbf064eb": {
+    "decision": {
+      "action": "answer",
+      "answer": "Harry mentioned having a dream about a motorcycle, and that it was flying [hp-book1-ch1-4_p032_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p032_paraC_00"
+      ]
+    },
+    "prompt_tokens": 779,
+    "completion_tokens": 87
+  },
+  "a5a3389121c1660e26b6c2ef74f9432525d02b62a617be549d609d461890ffc3": {
+    "decision": {
+      "action": "search",
+      "query": "Boa Constrictor Brazil bred in zoo Harry Potter"
+    },
+    "prompt_tokens": 651,
+    "completion_tokens": 20
+  },
+  "69074203088992f0cf2eeb2049f253458ed71de243cbe9848dd2fb98801457ea": {
+    "decision": {
+      "action": "search",
+      "query": "Boa Constrictor bred in the zoo Harry Potter Brazil"
+    },
+    "prompt_tokens": 661,
+    "completion_tokens": 21
+  },
+  "55ebd97faf8e7cb64ed298dc43fcc1b2edb9c47eaf29de620723f5f9c44cb5a9": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 673,
+    "completion_tokens": 23
+  },
+  "0853d1d4bca190eae7a0c829449fe0b404baf0794d574ea092fd13581addd8db": {
+    "decision": {
+      "action": "answer",
+      "answer": "By the time Harry's punishment ended, Dudley had already broken his new video camera, crashed his remote control airplane, and knocked down old Mrs. Figg with his racing bike [hp-book1-ch1-4_p037_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p037_paraC_00"
+      ]
+    },
+    "prompt_tokens": 663,
+    "completion_tokens": 109
+  },
+  "8bd8d166bc073f84c2735db4f7293c9933e44399c1488da6a7857e5b56a137e8": {
+    "decision": {
+      "action": "answer",
+      "answer": "A lion, an eagle, a badger, and a snake surrounded the large letter H on the purple wax seal [hp-book1-ch1-4_p040_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p040_paraC_00"
+      ]
+    },
+    "prompt_tokens": 686,
+    "completion_tokens": 95
+  },
+  "781cdaf40b523894d17f745c07e9b0bfb062f82d9d103c3a4deacd53e4a053cf": {
+    "decision": {
+      "action": "search",
+      "query": "Uncle Vernon sleep camp bed front door mail Harry"
+    },
+    "prompt_tokens": 702,
+    "completion_tokens": 20
+  },
+  "2fabc44c47d5fd8ae7b2c489aafa4252a8adb36d0e81f33c80bb1e8a65e31131": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 712,
+    "completion_tokens": 23
+  },
+  "d303cf13c9f43634cc57b7f956d59f63d3d86e680940625b69f30e0f443b4db5": {
+    "decision": {
+      "action": "answer",
+      "answer": "When the loud knocks sounded in Chapter 4, Uncle Vernon was holding a rifle in his hands as he skidded into the room [hp-book1-ch1-4_p050_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p050_paraC_00"
+      ]
+    },
+    "prompt_tokens": 713,
+    "completion_tokens": 99
+  },
+  "bd045f0a10fac9e6d625c8a564c9735ec4f2c27c7762f6f63d376e81352504b5": {
+    "decision": {
+      "action": "answer",
+      "answer": "According to Minerva McGonagall's letter, the Hogwarts term begins on September 1, and the deadline for sending back an owl is no later than July 31 [hp-book1-ch1-4_p055_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p055_paraC_00"
+      ]
+    },
+    "prompt_tokens": 805,
+    "completion_tokens": 109
+  },
+  "f45253e5213764005183003ff5259fc80bfc0760b84386df10e1cb66cb3d3992": {
+    "decision": {
+      "action": "answer",
+      "answer": "Hagrid defines a Muggle as what wizards call \"nonmagic folk\" [hp-book1-ch1-4_p056_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p056_paraC_00"
+      ]
+    },
+    "prompt_tokens": 721,
+    "completion_tokens": 89
+  },
+  "f26cc082b8c0979af1f1a1d6109829273f2ec564500a17b6b14776164509864e": {
+    "decision": {
+      "action": "search",
+      "query": "Harry Potter Ollivander wand price Galleons"
+    },
+    "prompt_tokens": 706,
+    "completion_tokens": 20
+  },
+  "ec34c48b060e4464690779c627599f6e4873085c04418371558e9bec1f01a65a": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 716,
+    "completion_tokens": 15
+  },
+  "12eb692d68d10fe0e5e49c4968531b88c1a27db1bc4d62336f67751c1a3ae72c": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 702,
+    "completion_tokens": 23
+  },
+  "c5f27efdbeab68a80e703a1e7cf7cc954e8a1bacdab83eed10f4d83d1962fab7": {
+    "decision": {
+      "action": "answer",
+      "answer": "Mr. Dursley was the director of a firm called Grunnings, which made drills [hp-book1-ch1-4_p012_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p012_paraC_01"
+      ]
+    },
+    "prompt_tokens": 979,
+    "completion_tokens": 92
+  },
+  "902b6ccac4b74de53b0e96d253fb4fd994611bb580ef7e6e22ceea3ee9323c6d": {
+    "decision": {
+      "action": "answer",
+      "answer": "Mr. Dursley failed to see the owls because he always sat with his back to the window in his office on the ninth floor [hp-book1-ch1-4_p014_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p014_paraC_00"
+      ]
+    },
+    "prompt_tokens": 842,
+    "completion_tokens": 100
+  },
+  "128c4b7959b30f5d0a14297a13f4d3b551042e27bd3425788aa941fefbb451dc": {
+    "decision": {
+      "action": "answer",
+      "answer": "When Albus Dumbledore first appears on Privet Drive, his hair and beard are silver and both long enough to tuck into his belt [hp-book1-ch1-4_p018_paraC_00]. He wears half-moon spectacles behind which his blue eyes are light, bright, and sparkling [hp-book1-ch1-4_p018_paraC_00]. His nose is very long and crooked, as though it had been broken at least twice [hp-book1-ch1-4_p018_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p018_paraC_00"
+      ]
+    },
+    "prompt_tokens": 885,
+    "completion_tokens": 180
+  },
+  "a363cb02c1045bc9088ebd0d9242f2c94bd615aa79d65f8e9ed1dbce0ae7c2e2": {
+    "decision": {
+      "action": "answer",
+      "answer": "Dumbledore had been trying for eleven years to persuade people to call Voldemort by his proper name instead of You-Know-Who [hp-book1-ch1-4_p020_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p020_paraC_00"
+      ]
+    },
+    "prompt_tokens": 885,
+    "completion_tokens": 100
+  },
+  "5eba2e0d2d02e733a66517fa992aeecfbc67721f0ae9de95ba4aac8b6043748f": {
+    "decision": {
+      "action": "answer",
+      "answer": "Dumbledore planned to have Harry's aunt and uncle explain everything to him when he was older, and he wrote them a letter which he tucked inside Harry's blankets on their doorstep [hp-book1-ch1-4_p022_paraC_00, hp-book1-ch1-4_p024_paraC_00]. [hp-book1-ch1-4_p022_paraC_00] [hp-book1-ch1-4_p024_paraC_00]",
+      "citations": [
+        "hp-book1-ch1-4_p022_paraC_00",
+        "hp-book1-ch1-4_p024_paraC_00"
+      ]
+    },
+    "prompt_tokens": 897,
+    "completion_tokens": 156
+  },
+  "f6801e7eaf76346488b01ed6da553fb89718d9039e7eb2187a9fdc6864e0d655": {
+    "decision": {
+      "action": "answer",
+      "answer": "Aunt Petunia told Harry that he got his lightning-shaped scar in the car crash when his parents died [hp-book1-ch1-4_p028_paraC_00]. The first rule for a quiet life with the Dursleys was \"Don't ask questions\" [hp-book1-ch1-4_p028_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p028_paraC_00"
+      ]
+    },
+    "prompt_tokens": 880,
+    "completion_tokens": 137
+  },
+  "f72bca1721bb1d1137cd20ecf8932a0c5ce67f53d24d56ece1f312ec16514e35": {
+    "decision": {
+      "action": "answer",
+      "answer": "Aunt Petunia's friend Yvonne could not look after Harry because she was on vacation in Majorca [hp-book1-ch1-4_p030_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p030_paraC_00"
+      ]
+    },
+    "prompt_tokens": 884,
+    "completion_tokens": 94
+  },
+  "b4c73f704b5f5369dbb63a83f00733f130319c9f7f6cea3ffa58face00cbcc7e": {
+    "decision": {
+      "action": "answer",
+      "answer": "Harry mentioned having a dream about a motorcycle that was flying [hp-book1-ch1-4_p032_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p032_paraC_00"
+      ]
+    },
+    "prompt_tokens": 871,
+    "completion_tokens": 84
+  },
+  "8212d97948fc3c49d6c397646804c23265472defef3b1b37ccd90c90121ab38d": {
+    "decision": {
+      "action": "answer",
+      "answer": "The snake had never been to Brazil because it was bred in the zoo [hp-book1-ch1-4_p034_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p034_paraC_01"
+      ]
+    },
+    "prompt_tokens": 987,
+    "completion_tokens": 87
+  },
+  "e4f2353889a933361b0dcad452d7b20df125840b9b734b2790444e38e634e97d": {
+    "decision": {
+      "action": "answer",
+      "answer": "By the time Harry's punishment ended, Dudley had broken his new video camera, crashed his remote control airplane, and knocked down old Mrs. Figg with his racing bike [hp-book1-ch1-4_p037_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p037_paraC_00"
+      ]
+    },
+    "prompt_tokens": 849,
+    "completion_tokens": 108
+  },
+  "210d0e4fa6489f4765932885095453f1b2a376c973a9cb4bca942822f255a273": {
+    "decision": {
+      "action": "answer",
+      "answer": "The four animals that surrounded the large letter H on the purple wax seal were a lion, an eagle, a badger, and a snake [hp-book1-ch1-4_p040_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p040_paraC_00"
+      ]
+    },
+    "prompt_tokens": 879,
+    "completion_tokens": 100
+  },
+  "b5098a5c6e6da89ad07051e80773b98d6eb76dc29de635452cdac01c3c218a1b": {
+    "decision": {
+      "action": "answer",
+      "answer": "Uncle Vernon slept lying at the foot of the front door in a sleeping bag [hp-book1-ch1-4_p044_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p044_paraC_00"
+      ]
+    },
+    "prompt_tokens": 821,
+    "completion_tokens": 88
+  },
+  "10384112e70c7f526c713bb2ca5e224750d843b164116de1e045e5f3af0b7c99": {
+    "decision": {
+      "action": "answer",
+      "answer": "When Uncle Vernon skidded into the room, he was holding a rifle in his hands [hp-book1-ch1-4_p050_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p050_paraC_00"
+      ]
+    },
+    "prompt_tokens": 846,
+    "completion_tokens": 90
+  },
+  "ced500e09ab10712047ba5e29f4a0b32ac2a557c422928473496dcbb12f5369a": {
+    "decision": {
+      "action": "answer",
+      "answer": "According to Minerva McGonagall's letter, the Hogwarts term begins on September 1, and the deadline for sending back an owl is no later than July 31 [hp-book1-ch1-4_p055_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p055_paraC_00"
+      ]
+    },
+    "prompt_tokens": 834,
+    "completion_tokens": 109
+  },
+  "e44c143319c65fe9c17c3897a2ca66606145c96dbf8b59049ec2e8e58cb44ca1": {
+    "decision": {
+      "action": "answer",
+      "answer": "Hagrid defines a Muggle as what wizards call nonmagic folk [hp-book1-ch1-4_p056_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p056_paraC_00"
+      ]
+    },
+    "prompt_tokens": 951,
+    "completion_tokens": 72
+  },
+  "fa65bc92e4f32374f69e6b22a6e2b29ce9b412e5396a8800d070847c30c3b82a": {
+    "decision": {
+      "action": "search",
+      "query": "Harry Potter wand price Ollivander seven Galleons"
+    },
+    "prompt_tokens": 846,
+    "completion_tokens": 21
+  },
+  "7dcf2b9938bbea49baf3e61f9f3f7fe2c3ef8ace0704e3f811c1aaeabda3c301": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 1029,
+    "completion_tokens": 15
+  },
+  "616cfa391f4ff61470d09881ec695987f5a928798901dfa1d57173bd0f5ea365": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 983,
+    "completion_tokens": 15
+  },
+  "46995cc0f9e45cb5014fdc5e98fd1c03e02397ec4f92481ad92e1f0db0544f3b": {
+    "decision": {
+      "action": "answer",
+      "answer": "Young Sirius Black lent Hagrid the flying motorcycle [hp-book1-ch1-4_p023_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p023_paraC_00"
+      ]
+    },
+    "prompt_tokens": 704,
+    "completion_tokens": 82
+  },
+  "bb153c5ec27548de7d8ed2226f31085541224272b715700c0d427c43c542de9c": {
+    "decision": {
+      "action": "answer",
+      "answer": "After promising to buy him two more presents, Aunt Petunia brought his total to thirty-nine presents [hp-book1-ch1-4_p028_paraC_03, hp-book1-ch1-4_p028_paraC_04]. [hp-book1-ch1-4_p028_paraC_03] [hp-book1-ch1-4_p028_paraC_04]",
+      "citations": [
+        "hp-book1-ch1-4_p028_paraC_03",
+        "hp-book1-ch1-4_p028_paraC_04"
+      ]
+    },
+    "prompt_tokens": 787,
+    "completion_tokens": 121
+  },
+  "8568c2ac31c245724331bf569f5cb8a8a14bfa6e8b78ce2f7b10c4300f9cb4f4": {
+    "decision": {
+      "action": "answer",
+      "answer": "Harry ended up lying flat on his stomach to listen at the crack between the door and floor because he and Dudley had a furious but silent fight over who would listen at the keyhole, and Dudley won [hp-book1-ch1-4_p041_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p041_paraC_01"
+      ]
+    },
+    "prompt_tokens": 729,
+    "completion_tokens": 113
+  },
+  "119ba3e288f4e1989cdcdf583bf7bd54af2c7664088de154c05fc000ea5dd4d6": {
+    "decision": {
+      "action": "answer",
+      "answer": "You-Know-Who showed up at the village on Halloween ten years ago, and Harry was just a year old [hp-book1-ch1-4_p058_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p058_paraC_00"
+      ]
+    },
+    "prompt_tokens": 792,
+    "completion_tokens": 96
+  },
+  "78012648cb7fd1bcc0799ef9afdf436d2e72c12061854c6472df87fa65c77112": {
+    "decision": {
+      "action": "answer",
+      "answer": "Hagrid drew a battered pink umbrella from inside his coat and pointed it like a sword at Uncle Vernon [hp-book1-ch1-4_p059_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p059_paraC_01"
+      ]
+    },
+    "prompt_tokens": 723,
+    "completion_tokens": 94
+  },
+  "4c366b879af9c17d330bfc392e635b5f30303b6b309dc7a8c0558d79c0b90fec": {
+    "decision": {
+      "action": "search",
+      "query": "Harry Potter Sorting Hat house Gryffindor start-of-term banquet"
+    },
+    "prompt_tokens": 759,
+    "completion_tokens": 26
+  },
+  "05709bdedd1c3ca6efcc1f3863067150478004e52fe94b18f8d3aa3705db9085": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 775,
+    "completion_tokens": 15
+  },
+  "af462e0f5d7c1b643ff95dfb959f0fab6b902a48e8d6f391614d56ec0d8c8d37": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 704,
+    "completion_tokens": 15
+  },
+  "83a8d2c3522bc307a2e91394ee4b5cbdc88196704b39bd8b479de2411ebc14a1": {
+    "decision": {
+      "action": "answer",
+      "answer": "Sirius Black lent Hagrid the flying motorcycle [hp-book1-ch1-4_p023_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p023_paraC_00"
+      ]
+    },
+    "prompt_tokens": 878,
+    "completion_tokens": 82
+  },
+  "881ec1ea342cef2cef57ae4633dee4d5689dff6a1464641c26391eecd3497ed0": {
+    "decision": {
+      "action": "answer",
+      "answer": "Aunt Petunia said Dudley would have thirty-nine presents in total [hp-book1-ch1-4_p029_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p029_paraC_00"
+      ]
+    },
+    "prompt_tokens": 880,
+    "completion_tokens": 87
+  },
+  "c2daee639e5dfd7d0882ec1c73d5bb09c33a4b9a2e7db632d8b415dc7931c86d": {
+    "decision": {
+      "action": "answer",
+      "answer": "Harry ended up lying flat on his stomach to listen at the crack between the door and floor because Dudley won their furious but silent fight over who would get to listen at the keyhole [hp-book1-ch1-4_p041_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p041_paraC_01"
+      ]
+    },
+    "prompt_tokens": 919,
+    "completion_tokens": 109
+  },
+  "6a4b01a3a96359b55eeb9561f21c71412fb571ab16ea364f5e1ef05120bca997": {
+    "decision": {
+      "action": "answer",
+      "answer": "You-Know-Who showed up at the village on Halloween ten years ago, and Harry was just a year old at the time [hp-book1-ch1-4_p058_paraC_00].",
+      "citations": [
+        "hp-book1-ch1-4_p058_paraC_00"
+      ]
+    },
+    "prompt_tokens": 949,
+    "completion_tokens": 99
+  },
+  "ac87d9544e5f68139429d6c5a014eb56615f6fc56848e53b77293ffbc0618f1b": {
+    "decision": {
+      "action": "answer",
+      "answer": "Hagrid drew a battered pink umbrella from inside his coat and pointed it like a sword at Uncle Vernon [hp-book1-ch1-4_p059_paraC_01].",
+      "citations": [
+        "hp-book1-ch1-4_p059_paraC_01"
+      ]
+    },
+    "prompt_tokens": 929,
+    "completion_tokens": 94
+  },
+  "2fa104cd6df88f96e4a497a080643b7a7774f68fab62943405b663c2c2c2ca9f": {
+    "decision": {
+      "action": "search",
+      "query": "Harry Potter Sorting Hat house Gryffindor banquet"
+    },
+    "prompt_tokens": 884,
+    "completion_tokens": 21
+  },
+  "6aef07b5c8c0413df663339a5c4dbe4fd8cf6d0c276002e685776f5ff856089d": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 895,
+    "completion_tokens": 15
+  },
+  "564e58e39f9fa4131e8d51ee5f969a8a8f52d64107c59b761e367cb5c3f12c89": {
+    "decision": {
+      "action": "answer",
+      "answer": "",
+      "citations": []
+    },
+    "prompt_tokens": 838,
+    "completion_tokens": 23
+  }
+}

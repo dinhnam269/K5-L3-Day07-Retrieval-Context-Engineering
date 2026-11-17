@@ -1,0 +1,60 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context and answer both complete (grade 2): hp-book1-ch1-4_p023_paraC_00 (page 23) explicitly states 'Young Sirius Black lent it to me'."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      false
+    ],
+    "context_grade": 1,
+    "audit_reason": "Context grade 1 & Answer grade 1: TF-IDF missed page 29 (hp-book1-ch1-4_p029_paraC_00) where Aunt Petunia explicitly says 'Thirty-nine, sweetums'. Instead it retrieved p028_paraC_03 (which mentions 37 presents + buying 2 more) and p028_paraC_04 ('Two more presents. Is that all right?'). Citation p028_paraC_04 does not support the total of 39."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context and answer both complete (grade 2): hp-book1-ch1-4_p041_paraC_01 (page 41) directly states Dudley won the fight for the keyhole so Harry lay flat on his stomach at the crack under the door."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context and answer both complete (grade 2): hp-book1-ch1-4_p058_paraC_00 (page 58) explicitly states 'on Halloween ten years ago. You was just a year old.'"
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "audit_reason": "Context and answer both complete (grade 2): hp-book1-ch1-4_p059_paraC_01 (page 59) explicitly states Hagrid 'drew a battered pink umbrella from inside his coat' and pointed it like a sword."
+  },
+  {
+    "query_id": "u03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention after 2 searches: Sorting Hat banquet occurs in Chapter 7, outside the Chapters 1-4 corpus."
+  },
+  {
+    "query_id": "u04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention: Sirius Black's motorcycle license plate number is never mentioned in the text."
+  }
+]

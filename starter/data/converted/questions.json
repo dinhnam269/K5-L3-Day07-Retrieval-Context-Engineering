@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What was the name of the firm that Mr. Dursley directed, and what product did it make?",
+    "expected_answer": "Mr. Dursley was the director of a firm called Grunnings, which made drills.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 12,
+        "evidence": "Mr. Dursley was the director of a firm called Grunnings, which made drills."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why did Mr. Dursley fail to see the owls swooping past in broad daylight from his ninth-floor office?",
+    "expected_answer": "Because he always sat with his back to the window in his office on the ninth floor.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 14,
+        "evidence": "Mr. Dursley always sat with his back to the window in his office on the ninth floor. If he hadn’t, he might have found it harder to concentrate on drills that morning."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How is Albus Dumbledore’s physical appearance (hair, beard, spectacles, and nose) described when he first appears on Privet Drive?",
+    "expected_answer": "He was tall, thin, and very old with silver hair and beard long enough to tuck into his belt, light bright blue eyes behind half-moon spectacles, and a very long crooked nose that looked broken at least twice.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 18,
+        "evidence": "His blue eyes were light, bright, and sparkling behind half-moon spectacles and his nose was very long and crooked, as though it had been broken at least twice."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "For how many years had Dumbledore been trying to persuade people to call Voldemort by his proper name instead of You-Know-Who?",
+    "expected_answer": "For eleven years.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 20,
+        "evidence": "All this ‘You-Know-Who’ nonsense — for eleven years I have been trying to persuade people to call him by his proper name: Voldemort."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How did Dumbledore plan to explain Harry’s background to his aunt and uncle when leaving him on their doorstep?",
+    "expected_answer": "Dumbledore wrote them a letter and tucked it inside Harry’s blankets on the doorstep.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 24,
+        "evidence": "He laid Harry gently on the doorstep, took a letter out of his cloak, tucked it inside Harry’s blankets, and then came back to the other two."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What lie did Aunt Petunia tell Harry about how he got the lightning-shaped scar on his forehead, and what was the first rule for a quiet life with the Dursleys?",
+    "expected_answer": "She told him he got it in the car crash when his parents died, and the first rule for a quiet life with the Dursleys was not to ask questions.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 28,
+        "evidence": "“In the car crash when your parents died,” she had said. “And don’t ask questions.”\n\nDon’t ask questions — that was the first rule for a quiet life with the Dursleys."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why couldn’t Aunt Petunia’s friend Yvonne look after Harry on Dudley’s birthday?",
+    "expected_answer": "Because Yvonne was on vacation in Majorca.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 30,
+        "evidence": "“What about what’s-her-name, your friend — Yvonne?”\n\n“On vacation in Majorca,” snapped Aunt Petunia."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "When Uncle Vernon was driving to the zoo and complaining about motorcycles, what dream did Harry mention having?",
+    "expected_answer": "Harry said he had a dream about a flying motorcycle.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 32,
+        "evidence": "“I had a dream about a motorcycle,” said Harry, remembering suddenly. “It was flying.”"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Although the sign next to the glass said Boa Constrictor, Brazil, why had the snake never actually been to Brazil?",
+    "expected_answer": "Because the specimen was bred in the zoo.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 34,
+        "evidence": "The boa constrictor jabbed its tail at the sign again and Harry read on: This specimen was bred in the zoo."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three things had Dudley already broken, crashed, or knocked down by the time Harry’s punishment for the Brazilian boa constrictor ended?",
+    "expected_answer": "Dudley had broken his new video camera, crashed his remote control airplane, and knocked down old Mrs. Figg on his racing bike.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 37,
+        "evidence": "Dudley had already broken his new video camera, crashed his remote control airplane, and, first time out on his racing bike, knocked down old Mrs. Figg as she crossed Privet Drive on her crutches."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What four animals surrounded the large letter H on the purple wax seal of Harry’s envelope?",
+    "expected_answer": "A lion, an eagle, a badger, and a snake.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 40,
+        "evidence": "Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger, and a snake surrounding a large letter H."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Where did Uncle Vernon sleep at night to prevent Harry from sneaking downstairs to collect the morning mail?",
+    "expected_answer": "Uncle Vernon lay at the foot of the front door in a sleeping bag.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 44,
+        "evidence": "Uncle Vernon had been lying at the foot of the front door in a sleeping bag, clearly making sure that Harry didn’t do exactly what he’d been trying to do."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "When the loud knocks sounded in Chapter 4, what weapon was Uncle Vernon holding in his hands as he skidded into the room?",
+    "expected_answer": "He was holding a rifle in his hands (which had been in the long, thin package he brought).",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 50,
+        "evidence": "There was a crash behind them and Uncle Vernon came skidding into the room. He was holding a rifle in his hands — now they knew what had been in the long, thin package he had brought with them."
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "According to Minerva McGonagall’s letter, when does the Hogwarts term begin and what is the deadline for sending back an owl?",
+    "expected_answer": "Term begins on September 1, and they await the owl by no later than July 31.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 55,
+        "evidence": "Term begins on September 1. We await your owl by no later than July 31."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How does Hagrid define the word Muggle when Harry asks him what it means?",
+    "expected_answer": "Hagrid explains that a Muggle is what wizards call nonmagic folk like the Dursleys.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 56,
+        "evidence": "“A Muggle,” said Hagrid, “it’s what we call nonmagic folk like them."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Who lent Hagrid the flying motorcycle he used to bring baby Harry to Privet Drive in Chapter 1?",
+    "expected_answer": "Young Sirius Black lent the motorcycle to Hagrid.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 23,
+        "evidence": "“Borrowed it, Professor Dumbledore, sir,” said the giant, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir.”"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How many presents did Aunt Petunia say Dudley would have in total on his birthday after promising to buy him two more?",
+    "expected_answer": "Thirty-nine presents.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 29,
+        "evidence": "Finally he said slowly, “So I’ll have thirty . . . thirty . . .”\n\n“Thirty-nine, sweetums,” said Aunt Petunia."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "When Harry and Dudley fought over who would listen at the kitchen door after Uncle Vernon threw them into the hall, why did Harry end up lying flat on his stomach to listen at the crack under the door?",
+    "expected_answer": "Because Dudley won the fight over who would listen at the keyhole.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 41,
+        "evidence": "Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "On what holiday and how many years ago did You-Know-Who show up at the village where Harry’s family was living, and how old was Harry at the time?",
+    "expected_answer": "On Halloween ten years ago, when Harry was just a year old.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 58,
+        "evidence": "All anyone knows is, he turned up in the village where you was all living, on Halloween ten years ago. You was just a year old."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?",
+    "expected_answer": "A battered pink umbrella.",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 59,
+        "evidence": "But at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .”"
+      }
+    ]
+  }
+]

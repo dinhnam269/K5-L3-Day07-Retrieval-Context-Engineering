@@ -1,0 +1,126 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "False abstention: gold chunk hp-book1-ch1-4_p012_paraC_01 was at rank 2 in TF-IDF, but rank 1 chunk (p013_paraC_02, 537 chars) consumed the 800-char budget so rank 2 was dropped by pack_context even after 2 searches."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "False abstention: gold chunk hp-book1-ch1-4_p014_paraC_00 was at rank 2 in TF-IDF, dropped by budget=800 because rank 1 chunk (p014_paraC_01, 526 chars) filled the context window."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Complete and accurate description of Dumbledore's silver hair/beard, half-moon spectacles, bright blue eyes, and crooked nose broken at least twice; directly supported by hp-book1-ch1-4_p018_paraC_00 (page 18)."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly answers 'eleven years' and cites hp-book1-ch1-4_p020_paraC_00 (page 20), which explicitly states 'for eleven years I have been trying to persuade people'."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Partially complete (grade 1/2): cites hp-book1-ch1-4_p022_paraC_00 (page 22) which confirms Dumbledore wrote a letter, but TF-IDF missed hp-book1-ch1-4_p024_paraC_00 (page 24) describing tucking the letter inside Harry's blankets on the doorstep."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states both the car-crash lie and the first rule ('Don't ask questions'), directly supported by hp-book1-ch1-4_p028_paraC_00 (page 28)."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Yvonne was on vacation in Majorca, supported by hp-book1-ch1-4_p030_paraC_00 (page 30)."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Harry dreamed about a flying motorcycle, supported by hp-book1-ch1-4_p032_paraC_00 (page 32)."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "False abstention after 3 searches: gold chunk hp-book1-ch1-4_p034_paraC_01 (379 chars) was at rank 2 behind p034_paraC_00 (329 chars); combined formatted length 838 > 800 budget."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly lists all three items (video camera, remote control airplane, knocking down Mrs. Figg on racing bike), supported by hp-book1-ch1-4_p037_paraC_00 (page 37)."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly lists a lion, an eagle, a badger, and a snake surrounding the letter H, supported by hp-book1-ch1-4_p040_paraC_00 (page 40)."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 0,
+    "citation_support": [],
+    "audit_reason": "False abstention after 2 searches: TF-IDF failed to retrieve gold chunk hp-book1-ch1-4_p044_paraC_00 (page 44, sleeping bag at the foot of the front door) due to lexical mismatch."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly identifies the rifle in Uncle Vernon's hands, supported by hp-book1-ch1-4_p050_paraC_00 (page 50)."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states term begins September 1 and owl deadline is July 31, supported by hp-book1-ch1-4_p055_paraC_00 (page 55)."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "audit_reason": "Correctly states Hagrid defines a Muggle as nonmagic folk, supported by hp-book1-ch1-4_p056_paraC_00 (page 56)."
+  },
+  {
+    "query_id": "u01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention after 2 searches: wand purchase at Ollivander's is in Chapter 5 (not in Chapters 1-4 corpus). Agent properly refused without guessing."
+  },
+  {
+    "query_id": "u02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "audit_reason": "Correct abstention: corpus mentions Mr. Dursley directs Grunnings (page 12) but never states his salary."
+  }
+]

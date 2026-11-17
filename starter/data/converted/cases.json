@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What was the name of the firm that Mr. Dursley directed, and what product did it make?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why did Mr. Dursley fail to see the owls swooping past in broad daylight from his ninth-floor office?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How is Albus Dumbledore’s physical appearance (hair, beard, spectacles, and nose) described when he first appears on Privet Drive?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "For how many years had Dumbledore been trying to persuade people to call Voldemort by his proper name instead of You-Know-Who?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How did Dumbledore plan to explain Harry’s background to his aunt and uncle when leaving him on their doorstep?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What lie did Aunt Petunia tell Harry about how he got the lightning-shaped scar on his forehead, and what was the first rule for a quiet life with the Dursleys?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why couldn’t Aunt Petunia’s friend Yvonne look after Harry on Dudley’s birthday?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "When Uncle Vernon was driving to the zoo and complaining about motorcycles, what dream did Harry mention having?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Although the sign next to the glass said Boa Constrictor, Brazil, why had the snake never actually been to Brazil?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three things had Dudley already broken, crashed, or knocked down by the time Harry’s punishment for the Brazilian boa constrictor ended?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What four animals surrounded the large letter H on the purple wax seal of Harry’s envelope?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Where did Uncle Vernon sleep at night to prevent Harry from sneaking downstairs to collect the morning mail?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "When the loud knocks sounded in Chapter 4, what weapon was Uncle Vernon holding in his hands as he skidded into the room?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "According to Minerva McGonagall’s letter, when does the Hogwarts term begin and what is the deadline for sending back an owl?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How does Hagrid define the word Muggle when Harry asks him what it means?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Who lent Hagrid the flying motorcycle he used to bring baby Harry to Privet Drive in Chapter 1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How many presents did Aunt Petunia say Dudley would have in total on his birthday after promising to buy him two more?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "When Harry and Dudley fought over who would listen at the kitchen door after Uncle Vernon threw them into the hall, why did Harry end up lying flat on his stomach to listen at the crack under the door?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "On what holiday and how many years ago did You-Know-Who show up at the village where Harry’s family was living, and how old was Harry at the time?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter 4, what object did Hagrid draw from inside his coat and point like a sword at Uncle Vernon when Vernon insulted Harry’s parents?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "What was the exact price in Galleons that Harry Potter paid Ollivander for his holly and phoenix feather wand in Diagon Alley?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus chỉ bao gồm Chương 1 đến Chương 4 (trang 12–61) của Tập 1; sự kiện Harry mua đũa phép tại tiệm Ollivander ở Hẻm Xéo nằm ở Chương 5 (Diagon Alley, từ trang 62 trở đi) nên không có trong các chunks đã index."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What salary did Mr. Vernon Dursley earn per year as director of the drill-making firm Grunnings?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 1 (trang 12) chỉ nêu ông Dursley là giám đốc công ty sản xuất máy khoan Grunnings nhưng hoàn toàn không đề cập mức lương hay thu nhập hàng năm của ông."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Which Hogwarts house did the Sorting Hat place Harry Potter into during the start-of-term banquet?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus chỉ giới hạn từ Chương 1 đến Chương 4; lễ Phân loại với Chiếc nón Phân loại (The Sorting Hat) diễn ra ở Chương 7 nên không tồn tại trong kho dữ liệu."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "What was the license plate number of the flying motorcycle that Sirius Black lent to Hagrid in Chapter 1?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 23 (Chương 1) chỉ ghi nhận Hagrid mượn chiếc xe máy bay từ Sirius Black nhưng không hề nhắc đến biển số xe."
+  }
+]
